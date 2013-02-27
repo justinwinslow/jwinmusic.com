@@ -1,0 +1,379 @@
+/* Reset */
+
+html, body, ul, ol, li, form, fieldset, legend, h1, h2, h3, h4, h5, h6, p, img {
+	margin: 0;
+	padding: 0;
+	border:0;
+}
+
+li { 
+	list-style: none; 
+}
+
+sup { 
+	vertical-align: text-top; 
+}
+
+sub { 
+	vertical-align: text-bottom; 
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+caption, th, td {
+	text-align: left;
+	vertical-align: top;
+	font-weight: normal;
+}
+
+input, textarea, select {
+	font-size: 110%;
+	line-height: 1.1;
+}
+
+abbr, acronym {
+	border-bottom: .1em dotted;
+	cursor: help;
+}
+
+/* */
+
+/* Main Elements*/
+
+body {
+	background:#C7DB00 url(../images/bg_main.png) 0 0 repeat-y;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:85%;
+	color:#fff;
+	line-height:1.5em;
+}
+
+h1 {
+	font-weight:normal;
+	font-size:2.25em;
+	font-family:Georgia, Times, "Times New Roman", serif;
+	color:#fff;
+	margin:0 0 1.5em;
+	text-shadow:0 1px 1px #222;
+}
+
+h1 span {
+	background:url(../images/text_j.winslow.media.png) 0 0 no-repeat;
+	display:block;
+	width:228px;
+	height:61px;
+	text-indent:-9999px;
+}
+
+h2 {
+	font-weight:normal;
+	font-size:2em;
+	font-family:Georgia, Times, "Times New Roman", serif;
+	color:#fff;
+	margin:0 0 1em;
+}
+
+h3 {
+	font-weight:normal;
+	font-size:1.25em;
+	font-family:Georgia, Times, "Times New Roman", serif;
+	color:#fff;
+	margin:0 0 1em;
+}
+
+p {
+	margin:0 0 1em;
+}
+
+p + h2 {
+	margin-top:1em;
+}
+
+a, a:active, a:visited, a:hover {
+	color:#FFA200;
+}
+
+ul {
+	list-style-type:none;
+	padding:0;
+	margin:0;
+}
+
+ul li {
+	margin:0 0 .25em;
+}
+
+ul.list_albums {
+	font-family:Georgia, Times, "Times New Roman", serif;
+	color:#fff;
+	font-size:1.25em;
+}
+
+ul.list_albums li {
+	display:block;
+	width:288px;
+	margin:0 0 0 -25px;
+	padding:1px 0;
+}
+
+ul.list_albums li:hover {
+	background:url(../images/icon_arrow.png) 270px center no-repeat;
+}
+
+ul.list_albums li.active {
+	background:#2E2B28;
+	border:1px solid #5A5753;
+	border-left:none;
+	border-right:none;
+	padding:0;
+}
+
+ul.list_albums li.active:hover {
+	background:#2E2B28 url(../images/icon_arrow.png) 270px center no-repeat;
+}
+
+ul.list_albums li a {
+	background:url(../images/icon_album_default.png) 25px center no-repeat;
+	color:#fff;
+	text-decoration:none;
+	padding:5px 0 5px 75px;
+	display:block;
+	line-height:35px;
+}
+
+/* */
+
+/* Main Structure */
+
+.structure_wrapper {
+	min-width:800px;
+	overflow:hidden;
+}
+
+.structure_main {
+	width:300px;
+	background:;
+	position:relative;
+	z-index:1;
+	float:left;
+	overflow:hidden;
+}
+
+.structure_main .content {
+	padding:25px;
+}
+
+.structure_secondary {
+	background:url(../images/bg_secondary.png) 0 0 repeat-y;
+	float:left;
+	overflow:hidden;
+}
+
+.structure_secondary .content {
+	padding:25px;
+}
+
+/* */
+
+/* Secondary Content */
+
+.content_secondary {
+	position:absolute;
+	z-index:0;
+	color:#3E3A36;
+	padding-bottom:100px;
+}
+
+.content_secondary .content {
+	
+}
+
+/* */
+
+/* Text */
+
+#content_secondary_theJazzTrio h2 {
+	text-indent:-9999px;
+	width:430px;
+	height:400px;
+	background:url(../images/text_thejazztrio.png) 0 0 no-repeat;
+}
+
+#content_secondary_theJazzTrio .header, #content_secondary_theJazzTrio .body {
+	float:left;
+}
+
+#content_secondary_theJazzTrio .body {
+	padding:25px 0 0 15px;
+}
+
+#content_secondary_theJazzTrio .text_track01 a {
+	display:block;
+	text-indent:-9999px;
+	width:295px;
+	height:56px;
+	background:url(../images/text_track01.png) 0 0 no-repeat;
+	margin: 0 0 25px;
+}
+
+#content_secondary_theJazzTrio .text_track01 a:hover {
+	background:url(../images/text_track01.png) 0 -106px no-repeat;
+}
+
+#content_secondary_theJazzTrio .text_track02 a {
+	display:block;
+	text-indent:-9999px;
+	width:413px;
+	height:56px;
+	background:url(../images/text_track02.png) 0 0 no-repeat;
+	margin: 0 0 25px;
+}
+
+#content_secondary_theJazzTrio .text_track02 a:hover {
+	background:url(../images/text_track02.png) 0 -102px no-repeat;
+}
+
+#content_secondary_theJazzTrio .text_track03 a {
+	display:block;
+	text-indent:-9999px;
+	width:208px;
+	height:56px;
+	background:url(../images/text_track03.png) 0 0 no-repeat;
+	margin: 0 0 25px;
+}
+
+#content_secondary_theJazzTrio .text_track03 a:hover {
+	background:url(../images/text_track03.png) 0 -100px no-repeat;
+}
+
+#content_secondary_theJazzTrio .text_track04 a {
+	display:block;
+	text-indent:-9999px;
+	width:159px;
+	height:56px;
+	background:url(../images/text_track04.png) 0 0 no-repeat;
+	margin: 0 0 25px;
+}
+
+#content_secondary_theJazzTrio .text_track04 a:hover {
+	background:url(../images/text_track04.png) 0 -114px no-repeat;
+}
+
+#content_secondary_theJazzTrio .text_trioDescription {
+	line-height:1.4em;
+}
+
+/* Audio Player */
+
+.audioPlayer_container {
+	height:50px;
+	min-width:100px;
+	background:#3E3A36 url(../images/bg_audioPlayer.png) 0 0 repeat-x;
+	border:1px solid #2C2926;
+	position:fixed;
+	bottom:0;
+	left:300px;
+	margin:25px;
+	
+	box-shadow: 0px 0px 5px #666;
+	/*-moz-box-shadow: 0px 0px 3px #666;
+	-webkit-box-shadow: 0px 0px 3px #666;*/
+	
+	border-radius: 25px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+}
+
+.audioPlayer_container div.controls {
+	line-height:24px;
+	padding:13px 0 13px 25px;
+	float:left;
+}
+
+.audio_btn_play {
+	display:block;
+	width:24px;
+	height:24px;
+	text-indent:-9999px;
+	background:url(../images/btn_play.png) 0 0 no-repeat;
+	float:left;
+}
+
+.audio_btn_pause {
+	display:block;
+	width:24px;
+	height:24px;
+	text-indent:-9999px;
+	background:url(../images/btn_pause.png) 0 0 no-repeat;
+	float:left;
+}
+
+.audioPlayer_container div.duration {
+	float:left;
+	height:10px;
+	min-width:100px;
+	padding:0;
+	margin:20px 25px;
+	background:#34302C;
+	border-bottom:1px solid #5A5753;
+	border-top:1px solid #2D2A27;
+	overflow:hidden;
+	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+
+.audioPlayer_container div.duration div.indicator {
+	position:relative;
+	z-index:101;
+	height:9px;
+	width:0;
+	border-top:1px solid #DEEC70;
+	background:#C0D22F;
+	margin-top:-9px;
+	cursor:pointer;
+	
+	border-radius: 5px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 5px;
+}
+
+.audioPlayer_container div.duration div.buffered{
+	position:relative;
+	z-index:100;
+	width:0;
+	height:9px;
+	background:#474D12;
+	cursor:pointer;
+	
+	border-radius: 5px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 5px;
+}
+
+.audioPlayer_container div.volume {
+	height:24px;
+	width:100px;
+	float:left;
+	background:;
+	margin:13px 25px 13px 0;
+}
+
+.audioPlayer_container div.volume .slider {
+	background:url(../images/bg_volumeSlider.png) 0 0 no-repeat;
+	float:right;
+	width:78px;
+	height:24px;
+	overflow:hidden;
+	cursor:pointer;
+}
+
+.audioPlayer_container div.volume .slider .indicator {
+	background:url(../images/bg_volumeIndicator.png) 0 0 no-repeat;
+	height:24px;
+	/*cursor:col-resize;*/
+}
