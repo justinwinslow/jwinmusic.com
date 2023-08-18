@@ -155,7 +155,7 @@ $.position_verticalCenter = {
 if(Modernizr.audio){
 	$.audioPlayer = {
 		audio : new Audio(),
-		currentTrack : 'audio/02BeautifulLove.ogg',	
+		currentTrack : 'audio/02BeautifulLove.mp3',	
 		//'audio/02BeautifulLove' + Modernizr.audio.mp3 ? '.mp3' : Modernizr.audio.ogg ? '.ogg',
 		volume : .75,
 		
@@ -234,7 +234,7 @@ if(Modernizr.audio){
 			$.audioPlayer.pauseAudio();
 			
 			$.audioPlayer.audio = new Audio();//Re-instantiate the Audio object for FireFox 3.x
-			$.audioPlayer.currentTrack = $(which).attr('href').split('.')[0] + '.ogg';
+			$.audioPlayer.currentTrack = $(which).attr('href');
 			$.audioPlayer.audio.setAttribute('src', $.audioPlayer.currentTrack);
 			
 			if($.audioPlayer.audio.buffered == undefined){$.audioPlayer.audio.play(); $.audioPlayer.playAudio();};
