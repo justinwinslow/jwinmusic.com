@@ -155,7 +155,7 @@ $.position_verticalCenter = {
 if(Modernizr.audio){
 	$.audioPlayer = {
 		audio : new Audio(),
-		currentTrack : 'audio/02_Beautiful_Love.mp3',	
+		currentTrack : 'audio/01_Beautiful_Love.mp3',	
 		//'audio/02BeautifulLove' + Modernizr.audio.mp3 ? '.mp3' : Modernizr.audio.ogg ? '.ogg',
 		volume : .75,
 		
